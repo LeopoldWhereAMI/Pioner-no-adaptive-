@@ -1,0 +1,426 @@
+
+/* Header */
+.container {
+    max-width: 1210px;   
+    margin: 0 auto;
+    padding: 0 15px;
+    
+}
+
+header {
+    height: 113px;
+    padding-top: 32px;
+}
+
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper-header {
+    display: flex;
+    align-items: center;
+}
+
+.mail {
+    width: 280px;
+    height: 45px;
+    text-align: right;
+    margin-right: 20px;
+    
+}
+
+.mail p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    font-family: 'Source Sans 3';
+}
+
+
+.mail a {
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 600;
+    color: #607CE6;
+    font-family: 'Source Sans 3';
+}
+
+
+
+
+.phone {
+    width: 180px;
+    height: 45px;
+    text-align: right;
+    font-family: 'Source Sans 3';
+}
+
+.phone a {
+    color: #607CE6;
+      font-size: 20px;
+      font-weight: 600;
+      font-family: 'Source Sans 3';
+}
+
+
+.ul__header { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+.line {
+    background-color: gray;
+    height: 1px;
+    width: 1180px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.li__header {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16.8px;
+    font-family: 'Source Sans 3';
+    
+}
+
+.li__header:hover {
+    color: #607CE6;
+    transition: 0.35s;
+}
+
+.phone-icon {
+    margin-right: 5px;
+}
+
+
+/* Main */
+.main-block {
+    margin-top: 80px;
+     
+}
+
+.main-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+
+}
+
+h1 {
+    width: 580px;
+    height: 144px;
+    font-size: 60px;
+    font-weight: 700;
+    font-style: normal;
+    color: black; 
+    line-height: 120%;
+    font-family: 'Source Sans 3';
+}
+
+.description {
+    width: 379px;
+    height: 94px;
+    color: #333;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    font-family: 'Source Sans 3';
+    
+}
+
+.main-text {
+    margin-left: 20px;
+    margin-right: 201px;
+}
+
+.container-img {
+    margin-top: 32px;
+       
+}
+
+.main-img {
+    display: flex;
+    width: 1180px;
+    height: 440px;
+    background-size: cover;
+}
+
+/* second-title */
+
+.second-title {
+    margin-top: 80px;
+}
+
+h2 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    font-family: 'Source Sans 3';
+}
+
+.txt-section {
+    margin-top: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: 'Source Sans 3';
+}
+
+.second-title-txt1 {
+    width: 580px;
+    height: 110px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    text-align: left;
+    font-family: 'Source Sans 3';
+}
+
+.second-title-txt2 {
+    margin-left: 20px;
+    width: 580px;
+    height: 66px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    text-align: left;
+    font-family: 'Source Sans 3';
+    
+
+}
+
+.second-title-txt3 {
+    margin-top: 24px;
+    width: 580px;
+    height: 110px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    text-align: left;
+    font-family: 'Source Sans 3';
+}
+
+.block-photo {
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: space-between
+}
+
+/* Products */
+
+.products {
+    margin-top: 80px;
+}
+
+
+.cards-top {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-around;
+       
+}
+
+.cards-bottom {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.card-item {
+    width: 380px;
+    height: 435px;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    font-family: 'Source Sans 3'; 
+       
+}
+
+
+.img-card {
+    margin-top: 32px;
+    margin-left: 24px;
+}
+
+.img-card2 {
+    margin-top: 55px;
+    margin-left: 24px;
+    
+}
+
+
+.wrapper-cards-text { 
+    margin-bottom: 32px;  
+    margin-left: 24px;
+     
+}
+
+
+
+.card-info {
+    font-family: 'Source Sans 3';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    color: #607ce6;
+  
+}
+.card-icon {
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+/* map */
+
+.map-section {
+    margin-top: 80px;
+}
+
+.map-img {
+    margin-top: 32px;
+}
+
+/* news */
+
+.news {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    
+}
+
+
+.cards__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 380px;
+    min-height: 478px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #f5f5f5;
+    margin-top: 32px;
+}
+
+.card__button {
+    position: absolute;
+    bottom: 24px;
+    left: 16px;
+
+    font-family: 'Source Sans 3';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    color: #607CE6;
+}
+
+.card__date {
+    position: absolute;
+    bottom: 25px;
+    right: 16px;
+
+    color: #888;
+    font-family: 'Source Sans 3';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+
+
+}
+
+.card__top {
+    flex: 0 0 251px;
+}
+
+.card__bottom {
+    flex: 0 0 227px;
+    
+}
+
+
+.card__text {
+    margin-top: 16px;
+    margin-left: 16px;
+
+    font-family: 'Source Sans 3';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+/* footer */
+
+.footer {  
+    position: relative;
+    background-color: #333;
+    width: 1440px;
+    height: 361px;
+    margin: 0 auto;
+
+} 
+
+.footer__date { 
+    position: absolute;
+    bottom: 24px;
+    left: 638px;
+    color: #fff;
+    font-family: 'Source Sans 3';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+
+.footer__wrapper {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+
+.footer__logo {
+    margin-top: 56px;
+    flex-basis: 420px;
+}
+
+.nav__block1, .nav__block2, .nav__block3 {
+    margin-top: 56px;
+      
+}
+
+
+.nav__text {
+    font-family: Source Sans 3;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    padding-bottom: 24px;
+}
+
+
